@@ -1,0 +1,84 @@
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px;">
+
+<div style="background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 18px;">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px;">
+<div>
+<p style="font-size: 15px; font-weight: 500; margin: 0;">Faithfulness</p>
+<p style="font-size: 12px; color: var(--color-text-secondary); margin: 2px 0 0;">Is the answer grounded in retrieved context?</p>
+</div>
+<span style="font-size: 12px; font-weight: 500; padding: 3px 10px; border-radius: 999px; background: #EAF3DE; color: #3B6D11; white-space: nowrap;">● Healthy</span>
+</div>
+<svg width="100%" viewBox="0 0 220 130" style="margin-top: 4px;" role="img" aria-label="Gauge showing faithfulness score of 0.82 in green zone">
+<path d="M 25 110 A 85 85 0 0 1 195 110" fill="none" stroke="#F7C1C1" stroke-width="14"/>
+<path d="M 25 110 A 85 85 0 0 1 75.5 41.5" fill="none" stroke="#F7C1C1" stroke-width="14"/>
+<path d="M 75.5 41.5 A 85 85 0 0 1 144.5 41.5" fill="none" stroke="#FAC775" stroke-width="14"/>
+<path d="M 144.5 41.5 A 85 85 0 0 1 195 110" fill="none" stroke="#97C459" stroke-width="14"/>
+<line x1="110" y1="110" x2="170.5" y2="50.5" stroke="#27500A" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="110" cy="110" r="5" fill="#27500A"/>
+<text x="110" y="125" text-anchor="middle" font-size="22" font-weight="500" fill="#27500A" font-family="sans-serif">0.82</text>
+</svg>
+</div>
+
+<div style="background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 18px;">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px;">
+<div>
+<p style="font-size: 15px; font-weight: 500; margin: 0;">Answer relevancy</p>
+<p style="font-size: 12px; color: var(--color-text-secondary); margin: 2px 0 0;">Does the answer address the question?</p>
+</div>
+<span style="font-size: 12px; font-weight: 500; padding: 3px 10px; border-radius: 999px; background: #FAEEDA; color: #854F0B; white-space: nowrap;">● Monitor</span>
+</div>
+<svg width="100%" viewBox="0 0 220 130" style="margin-top: 4px;" role="img" aria-label="Gauge showing answer relevancy score of 0.75 in yellow zone">
+<path d="M 25 110 A 85 85 0 0 1 75.5 41.5" fill="none" stroke="#F7C1C1" stroke-width="14"/>
+<path d="M 75.5 41.5 A 85 85 0 0 1 144.5 41.5" fill="none" stroke="#FAC775" stroke-width="14"/>
+<path d="M 144.5 41.5 A 85 85 0 0 1 195 110" fill="none" stroke="#97C459" stroke-width="14"/>
+<line x1="110" y1="110" x2="138.5" y2="30.5" stroke="#633806" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="110" cy="110" r="5" fill="#633806"/>
+<text x="110" y="125" text-anchor="middle" font-size="22" font-weight="500" fill="#633806" font-family="sans-serif">0.75</text>
+</svg>
+</div>
+
+<div style="background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 18px;">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px;">
+<div>
+<p style="font-size: 15px; font-weight: 500; margin: 0;">Context precision</p>
+<p style="font-size: 12px; color: var(--color-text-secondary); margin: 2px 0 0;">Are retrieved chunks actually useful?</p>
+</div>
+<span style="font-size: 12px; font-weight: 500; padding: 3px 10px; border-radius: 999px; background: #FAEEDA; color: #854F0B; white-space: nowrap;">● Monitor</span>
+</div>
+<svg width="100%" viewBox="0 0 220 130" style="margin-top: 4px;" role="img" aria-label="Gauge showing context precision score of 0.68 in yellow zone">
+<path d="M 25 110 A 85 85 0 0 1 75.5 41.5" fill="none" stroke="#F7C1C1" stroke-width="14"/>
+<path d="M 75.5 41.5 A 85 85 0 0 1 144.5 41.5" fill="none" stroke="#FAC775" stroke-width="14"/>
+<path d="M 144.5 41.5 A 85 85 0 0 1 195 110" fill="none" stroke="#97C459" stroke-width="14"/>
+<line x1="110" y1="110" x2="111" y2="25" stroke="#633806" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="110" cy="110" r="5" fill="#633806"/>
+<text x="110" y="125" text-anchor="middle" font-size="22" font-weight="500" fill="#633806" font-family="sans-serif">0.68</text>
+</svg>
+</div>
+
+<div style="background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 18px;">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px;">
+<div>
+<p style="font-size: 15px; font-weight: 500; margin: 0;">Context recall</p>
+<p style="font-size: 12px; color: var(--color-text-secondary); margin: 2px 0 0;">Did retrieval capture all needed information?</p>
+</div>
+<span style="font-size: 12px; font-weight: 500; padding: 3px 10px; border-radius: 999px; background: #FAEEDA; color: #854F0B; white-space: nowrap;">● Monitor</span>
+</div>
+<svg width="100%" viewBox="0 0 220 130" style="margin-top: 4px;" role="img" aria-label="Gauge showing context recall score of 0.71 in yellow zone">
+<path d="M 25 110 A 85 85 0 0 1 75.5 41.5" fill="none" stroke="#F7C1C1" stroke-width="14"/>
+<path d="M 75.5 41.5 A 85 85 0 0 1 144.5 41.5" fill="none" stroke="#FAC775" stroke-width="14"/>
+<path d="M 144.5 41.5 A 85 85 0 0 1 195 110" fill="none" stroke="#97C459" stroke-width="14"/>
+<line x1="110" y1="110" x2="125.5" y2="27.5" stroke="#633806" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="110" cy="110" r="5" fill="#633806"/>
+<text x="110" y="125" text-anchor="middle" font-size="22" font-weight="500" fill="#633806" font-family="sans-serif">0.71</text>
+</svg>
+</div>
+
+</div>
+
+<div style="display: flex; gap: 18px; margin-top: 14px; padding: 10px 14px; background: var(--color-background-secondary); border-radius: var(--border-radius-md); font-size: 12px; color: var(--color-text-secondary);">
+<span style="display: flex; align-items: center; gap: 6px;"><span style="width: 10px; height: 10px; border-radius: 2px; background: #97C459;"></span>0.80–1.00 Healthy</span>
+<span style="display: flex; align-items: center; gap: 6px;"><span style="width: 10px; height: 10px; border-radius: 2px; background: #FAC775;"></span>0.60–0.80 Monitor</span>
+<span style="display: flex; align-items: center; gap: 6px;"><span style="width: 10px; height: 10px; border-radius: 2px; background: #F7C1C1;"></span>0.00–0.60 Action required</span>
+</div>
+
+<p style="font-size: 12px; color: var(--color-text-secondary); margin: 12px 0 0; font-style: italic;">Run RAGAS weekly on a sample of 50–100 queries. A consistent drop in any metric is your earliest warning signal before users notice quality degradation. Reference: Es, S. et al. (2023). RAGAS: Automated Evaluation of Retrieval Augmented Generation.</p>
